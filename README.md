@@ -1,7 +1,9 @@
 Spring Boot Example Project
 -----------------------------
 
+
 Spring Boot, JPA, Sring MVC, H2 Database 
+
 
 
 Step by Step
@@ -47,6 +49,7 @@ Connecting to H2 In memory database:
     - Instead we directly insert dependency of this interface into the Controller class. And add repo.save(alien). Spring DataRest will automatically perform necessary operations.
     - Relaunch project. Refresh http://localhost:8080/h2-console . Check table (select * from alien). Insert new data from the input form on the page. Check table again.
     
+
 
 
 
