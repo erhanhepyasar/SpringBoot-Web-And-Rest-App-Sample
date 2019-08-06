@@ -3,7 +3,7 @@ Spring Boot Example Project
 
 Spring Boot, JPA, Sring MVC, H2 Database 
 
-Step by Step:
+Step by Step
 ---------------------------
 Initial steps:
 - Create a Spring Boot project. Choose: Web, JPA and H2.
@@ -48,6 +48,7 @@ Connecting to H2 In memory database:
     
     
 Source: 
+
 https://www.youtube.com/watch?v=YywLS8XdxLQ
 
 https://www.youtube.com/watch?v=dVTh--j1suI
