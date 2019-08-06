@@ -1,7 +1,7 @@
 Spring Boot Example Project
 -----------------------------
 
-Technologies: Spring Boot, JPA, Sring MVC, H2 Database 
+Spring Boot, JPA, Sring MVC, H2 Database 
 
 Step by Step:
 ---------------------------
@@ -49,4 +49,5 @@ Connecting to H2 In memory database:
     
 Source: 
 https://www.youtube.com/watch?v=YywLS8XdxLQ
+
 https://www.youtube.com/watch?v=dVTh--j1suI
