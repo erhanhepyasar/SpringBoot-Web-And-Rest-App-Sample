@@ -56,6 +56,7 @@ Connecting to H2 in-memory database:
   - Adding another customized query: findByAidGreaterThan(int aid)
     PS: Just add properly named signature into the interface and Spring automatically performs operation. No need to write methods for these specially named queries.
   - Adding query by using @Query annotation and JPQL
+  - Adding Rest services. Call with: http://localhost:8080/alies and http://localhost:8080/alien/105
 
 
 Source: 
