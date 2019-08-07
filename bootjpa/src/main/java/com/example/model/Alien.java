@@ -29,10 +29,11 @@ public class Alien {
 	public void setTech(String tech) {
 		this.tech = tech;
 	}
-	
 	@Override
 	public String toString() {
-		return "Alien [aid=" + aid + ", aname=" + aname + "]";
+		return "Alien [aid=" + aid + ", aname=" + aname + ", tech=" + tech + "]";
 	}
+	
+	
 	
 }

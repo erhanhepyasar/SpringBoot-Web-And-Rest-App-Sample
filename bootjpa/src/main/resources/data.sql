@@ -1,5 +1,7 @@
-insert into alien values (101, 'Erhan', 'Java')
+insert into alien values (101, 'Jane', 'Java')
 insert into alien values (102, 'Ahmet', 'Python')
 insert into alien values (103, 'John', 'C')
 insert into alien values (104, 'Michael', 'Android')
 insert into alien values (105, 'David', 'Swift')
+insert into alien values (106, 'Erhan', 'Java')
+insert into alien values (107, 'Stevard', 'Python')
