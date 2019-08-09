@@ -1,8 +1,7 @@
-Spring Boot Example Project
+Spring Boot Sample Project
 -----------------------------
 
-
-Spring Boot, JPA, Sring MVC, H2
+Dependencies: Web, JPA, H2
 
 
 
