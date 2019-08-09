@@ -1,4 +1,4 @@
-Spring Boot Sample Project
+Spring Boot Application
 -----------------------------
 
 Dependencies: Web, JPA, H2
