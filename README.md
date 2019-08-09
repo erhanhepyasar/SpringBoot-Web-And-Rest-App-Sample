@@ -56,9 +56,26 @@ Connecting to H2 in-memory database:
   - Adding another customized query: findByAidGreaterThan(int aid)
     PS: Just add properly named signature into the interface and Spring automatically performs operation. No need to write methods for these specially named queries.
   - Adding query by using @Query annotation and JPQL
-  - Adding Rest services. Call with: http://localhost:8080/alies and http://localhost:8080/alien/105
+
+- Rest services. 
+  - Call with: http://localhost:8080/alies and http://localhost:8080/alien/105
   - Adding support for XML.
     - PS: Spring by default supports Json by using Jackson maven dependencies. In order to support xml, add "Jackson Dataformat Xml" from Maven Repositories. It is better use the same version number with the Jackson jars in maven dependencies in the project.
+    - Test with Postman > Header Accept: application/xml,  GET, http://localhost:8080/alies
+    - To restrict Jason from Server side add this annotation in the relative method in the Controller class:
+      - @RequestMapping(path="/aliens", produces= {"application/xml"})
+  - Adding object:
+    - Add method to the controller with @PostMapping
+    - Postman: 
+      - POST - http://localhost:8080/addAlien , 
+      - form-data: Key-Value (aid, aname, tech) 
+      - raw data: text > Json & add @RequestBody before related method parameter
+      - Check with:  H2 console, Postman-Get or browser
+  - Deleting object:
+      - Add controller method with @DeleteMapping
+  - Updating object
+      - Add controller method with @PutMapping
+      - PUT method inserts or updates the object
 
 
 Source: 
