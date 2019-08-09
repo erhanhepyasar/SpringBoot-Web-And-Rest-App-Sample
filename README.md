@@ -57,6 +57,8 @@ Connecting to H2 in-memory database:
     PS: Just add properly named signature into the interface and Spring automatically performs operation. No need to write methods for these specially named queries.
   - Adding query by using @Query annotation and JPQL
   - Adding Rest services. Call with: http://localhost:8080/alies and http://localhost:8080/alien/105
+  - Adding support for XML.
+    - PS: Spring by default supports Json by using Jackson maven dependencies. In order to support xml, add "Jackson Dataformat Xml" from Maven Repositories. It is better use the same version number with the Jackson jars in maven dependencies in the project.
 
 
 Source: 
